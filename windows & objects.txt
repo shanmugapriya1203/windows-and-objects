@@ -1,0 +1,35 @@
+ Differences between Document and Window Objects :
+
+In this article, we will see the  Differences between Document object & Window object
+
+DOCUMENT OBJECTS ?
+* JavaScript Document object is an object that provides access to all HTML    elements of a document. 
+* When an HTML document is loaded into a browser window, then it becomes a document object.
+* The document object stores the elements of an HTML document, such as HTML, HEAD, BODY, and other HTML tags as objects.
+* A document object is a child object of the Window object, which refers to the browser.
+
+WINDOW OBJECTS ?
+* The window object is supported by all browsers. It represents the browser's window.
+* All global JavaScript objects, functions, and variables automatically become members of the window object.
+*Global variables are properties of the window object.
+*Global functions are methods of the window object.
+
+Differences
+     DOCUMENT OBJECTS :
+        * It represents any HTML document or
+          web page that is loaded in the browser.
+        * It is loaded inside the window.
+        * It is the object of window property.
+        * All the tags, elements with attributes in HTML are part of the document.
+        * The document is part of BOM (browser object model) and dom (Document object model)                            
+      syntax :
+         document.propertyname;
+     
+     WINDOW OBJECTS :
+         * It represents a browser window or frame that displays the contents of the webpage.   
+         * It is the very first object that is loaded in the browser.
+         * It is the object of the browser.
+         * Global objects, functions, and variables of JavaScript are members of the window object.
+         * The window is part of BOM, not DOM.
+     syntax :
+         window.propertyname;
